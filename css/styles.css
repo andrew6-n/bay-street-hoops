@@ -1,0 +1,120 @@
+9/*~~~
+FONT DEFAULTS
+~~~*/
+
+body {
+	font-family: 'Ubuntu';
+
+}
+h1 {
+	font-weight: 700;
+}
+h2 {
+	font-weight: 500;
+}
+h3{
+	font-weight: 300;
+}
+
+/*~~~
+COLOURS
+~~~*/
+
+.red-bg{
+	background-color: rgba(227,21,5, 0.9);
+}
+.orange-bg{
+	background-color: rgba(227,111,5, 0.9);
+}
+.blue-bg{
+	background-color: rgba(31,141,156, 0.9);
+}
+.green-bg{
+	background-color: rgba(36,195,64, 0.9);
+}
+
+
+.red-text{
+	background-color: #FF3E2F;
+}
+.orange-text{
+	background-color: #FF932F;
+}
+.blue-text{
+	background-color: #1F8D9C;
+}
+.green-text{
+	background-color: #24C340;
+}
+/*~~~
+NAVBAR STYLINGS
+~~~*/
+
+.navbar-brand img{
+	width:120px; 
+}
+
+
+/*~~~
+LANDING
+~~~*/
+.landing {
+	height: 100%;
+}
+.carousel-inner{
+	margin-top: -20px;
+}
+
+.carousel-inner img{
+	width: 100%;
+	max-height: 100%;
+}
+.landing-quote{
+	font-family: 'Ubuntu';
+	min-height: 100px;
+	margin: 5% 10%;
+}
+
+.landing-quote h2 {
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+/*~~~
+SECTIONS!
+~~~
+*/
+
+.section-header{
+	margin-bottom: 5%;
+}
+.charities img{
+	margin: 0 auto;
+}
+.kidsport{
+	margin: 27% 10%;
+}
+
+/*~~~
+SEPARATOR
+~~~
+*/
+.separator{
+	background-image: url(../assets/court.jpg);
+	background-attachment: fixed;
+	min-height: 400px;
+	background-size: cover;
+}
+.overlay{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+}
+.overlay h2{
+	margin: 20% 30%;
+	color: #FFF;
+}
+
+
