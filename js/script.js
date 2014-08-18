@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $(".logo").hide().delay(1000).fadeIn("400");
+    $(".logo").hide().delay(1000).show("400");
 });
 
 
