@@ -1,5 +1,7 @@
-// $(".logo").hide().fadeIn( "slow", function() {
-//     // Animation complete
-//   });
-$( ".logo" ).hide( 300 ).delay( 1000 ).fadeIn( 400 );
+$( document ).ready(function() {
+    $(".logo").hide().delay(1000).fadeIn("400");
+});
+
+
+
 
