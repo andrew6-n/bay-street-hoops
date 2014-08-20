@@ -1,9 +1,9 @@
-9/*~~~
+/*~~~
 FONT DEFAULTS
 ~~~*/
 
 body {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 
 }
 h1 {
@@ -15,7 +15,9 @@ h2 {
 h3{
 	font-weight: 300;
 }
-
+.regular{
+	font-size: 2rem;
+}
 /*~~~
 COLOURS
 ~~~*/
@@ -35,16 +37,30 @@ COLOURS
 
 
 .red-text{
-	background-color: #FF3E2F;
+	color: #FF3E2F;
 }
 .orange-text{
-	background-color: #FF932F;
+	color: #FF932F;
 }
 .blue-text{
-	background-color: #1F8D9C;
+	color: #1F8D9C;
 }
 .green-text{
-	background-color: #24C340;
+	color: #24C340;
+}
+
+
+.red-text a:hover{
+	color: #FF932F;
+}
+.orange-text a:hover{
+	color: #FF3E2F;
+}
+.blue-text a:hover{
+	color: #24C340;
+}
+.green-text a:hover{
+	color: #1F8D9C;
 }
 /*~~~
 NAVBAR STYLINGS
@@ -92,9 +108,7 @@ SECTIONS!
 .charities img{
 	margin: 0 auto;
 }
-.kidsport{
-	margin: 27% 10%;
-}
+
 
 /*~~~
 SEPARATOR
@@ -105,16 +119,36 @@ SEPARATOR
 	background-attachment: fixed;
 	min-height: 400px;
 	background-size: cover;
+	position: relative;
 }
 .overlay{
+	top:0;
+	left: 0;
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0,0,0,0.3);
 	position: absolute;
 }
 .overlay h2{
-	margin: 20% 30%;
+	margin: 10% 30%;
 	color: #FFF;
 }
+/*~~~
+FOOTER
+~~~
+*/
 
+footer{
+	min-height: 300px;
 
+}
+footer li{
+	list-style: none;
+	text-decoration: none;
+}
+footer li a:hover{
+	text-decoration: none;
+}
+.site-map{
+	margin: 30px auto;
+}
