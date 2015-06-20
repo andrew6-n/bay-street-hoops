@@ -4,16 +4,15 @@ FONT DEFAULTS
 
 
 html,body {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	max-width: 100%;
+    overflow-x: hidden;
+	
 }
-body {
-	font-family: 'Ubuntu', sans-serif;
 
-
-}
 h1 {
 	font-weight: 700;
 }
@@ -77,6 +76,9 @@ NAVBAR STYLINGS
 .navbar-brand img{
 	width:120px; 
 }
+.navbar-default{
+	background-color: #D8D8D8;
+}
 
 
 /*~~~
@@ -102,7 +104,11 @@ LANDING
 .landing-quote h2 {
 	line-height: 60px;
 	text-align: center;
-	letter-spacing: 1px;special-olympics
+	letter-spacing: 1px;
+}
+.logo{
+	z-index: 1;
+	position: relative;
 }
 
 /*~~~
@@ -162,6 +168,10 @@ footer{
 footer li{
 	list-style: none;
 	text-decoration: none;
+
+}
+footer li a{
+	color: #FF932F;
 }
 footer li a:hover{
 	text-decoration: none;
@@ -169,3 +179,63 @@ footer li a:hover{
 .site-map{
 	margin: 30px auto;
 }
+
+/*~~~
+ABOUT US
+~~~
+*/
+
+
+a.list-group-item{
+	width: 200px;
+	background-color: #A4A4A4;
+	margin-left: 1060px;
+	bottom: 70px;
+}
+a.list-group-item:hover{
+	background-color: rgba(227,21,5, 0.9);
+}
+
+.commitee-members img{
+	height: 180px;			
+	width: 180px;
+	border-radius: 100%;
+}
+.navbar-default{
+	background-color: white;
+	box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.5);
+}
+.about-logo{
+	position: relative;
+	bottom: 20px;
+	z-index: 1;
+}
+.about-header{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+
+}
+.about-info{
+	margin-top: 10%;
+	margin-left: 1%;
+
+
+}
+.about-us{
+	background-color: #DF7401;
+
+}
+.history{
+	position: relative;
+	left: 700px;
+	bottom: 500px;
+}
+.twenty-one{
+	height: 100px;
+	width: 100px;
+}
+
